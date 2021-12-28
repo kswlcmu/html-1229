@@ -7,8 +7,12 @@ var velocityY = [];
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	noStroke();
+	//createCanvas(windowWidth, windowHeight);
+	//noStroke();
+
+	var canvas = createCanvas(windowWidth, windowHeight);
+  canvas.parent('abc');
+
 	fill(64, 255, 255, 192);
 }
 
